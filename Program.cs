@@ -14,11 +14,8 @@ namespace Pokemon_Legacy
 	{
 		public static void Main(string[] args)
 		{
-			DmgCalc dmg = new DmgCalc();
-			int damage = dmg.HitDmg(5,4,100);
-			Console.WriteLine("Hello World!");
-			Console.WriteLine(damage);
-			// TODO: Implement Functionality Here
+			Console.Writeline("Welcome to the world of Pokemon");
+			Console.WriteLine("");
 			
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);

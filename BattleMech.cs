@@ -32,4 +32,12 @@ namespace Pokemon_Legacy
 		}
 		
 	}
+	
+	public class HeldItem
+	{
+		public string CritVal(bool item)
+		{
+			
+		}
+	}
 }

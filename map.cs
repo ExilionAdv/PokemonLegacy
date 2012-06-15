@@ -7,6 +7,7 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
+using System.Collections.Generic;
 
 namespace Pokemon_Legacy
 {
@@ -15,9 +16,16 @@ namespace Pokemon_Legacy
 	/// </summary>
 	public class map
 	{
-		public map()
+		public PokeRegion()
 		{
-			
+			List<string> Region=new List<string>();
+			Console.WriteLine("\nTotalRegion:{5}",Region.Capacity);
+			Region.Add("Kanto");
+			Region.Add("Orange Islands");
+			Region.Add("Johto");
+			Region.Add("Hoen");
+			Region.Add("Sinoh");
+			Region.Add("Unova");
 		}
 	}
 }
